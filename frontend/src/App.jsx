@@ -33,6 +33,7 @@ function App() {
 });
 
 setTodos(prev => [...prev, response.data]);
+       setTitle("");
 
     } catch (error) {
       console.error("Error adding todo:", error);
